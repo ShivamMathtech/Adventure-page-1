@@ -1,0 +1,57 @@
+body {
+  background-color: #0f9ebc;
+}
+.home-page {
+  height: 90vh;
+  margin-top: 30px;
+}
+.left-box {
+  background-color: #0e233e;
+  position: relative;
+}
+.right-box {
+  background-color: #fff;
+  background-image: url("bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+header {
+  height: 100px;
+}
+.nav-link,
+.nav-link:hover {
+  color: white;
+}
+.text-box-1 {
+  height: 300px;
+  width: 500px;
+  color: white;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+.vrow {
+  height: 80%;
+  width: 10px;
+  background-color: white;
+}
+.dis {
+  font-weight: 900;
+  font-size: 4em;
+  color: white;
+}
+.new {
+  font-weight: 900;
+  font-size: 4em;
+  -webkit-text-stroke: 1px #ffffff;
+  -webkit-text-fill-color: transparent;
+  color: #333;
+}
+.navigation {
+  height: calc(85vh - 100px);
+  color: white;
+}
